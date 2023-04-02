@@ -38,4 +38,4 @@ My name is Peter Tadrous, and I am a data scientist with a solid background in c
 
 In my free time, I enjoy camping, hiking, reading, and traveling to new places. I am always eager to learn new things, and I appreciate a good laugh, especially in the realm of comedy. I love spending time with my cat and playing the ukulele. My passion for technology extends beyond my professional life, as I enjoy exploring new technologies, experimenting with Docker, and finding innovative ways to apply my skills.
 
-[Return to Home](index.md)
+[Return to Home](../index.md)

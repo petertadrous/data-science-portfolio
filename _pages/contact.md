@@ -20,4 +20,4 @@ I'm always happy to connect, collaborate, or discuss new opportunities. Feel fre
 
 Please allow me some time to respond to your message, as I may be busy with work or other commitments. I look forward to hearing from you!
 
-[Return to Home](index.md)
+[Return to Home](../index.md)

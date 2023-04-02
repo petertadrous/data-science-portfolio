@@ -36,4 +36,4 @@ Below is a selection of projects I've worked on that showcase my skills and expe
 - Analyzed data from the 50 States and D.C. using linear regression to explain the variation in obesity rate
 - Visualized findings with histograms and scatterplots using the statistical program SPSS
 
-[Return to Home](index.md)
+[Return to Home](../index.md)
