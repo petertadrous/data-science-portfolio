@@ -8,7 +8,7 @@ breadcrumb: true
 
 # Enable or disable the site's sidebar
 sidebar:
-  nav: "docs"
+  nav: main
 
 # Author information
 author:
