@@ -24,17 +24,8 @@ defaults:
       share: false
       related: false
 
-main:
-  - title: "Introduction"
-    url: /
-  - title: "About"
-    url: /about/
-  - title: "Projects"
-    url: /projects/
-  - title: "Contact"
-    url: /contact/
-
-
+sidebar:
+  nav: "main"
 # # Navigation
 # # List links that should appear in the site sidebar here
 # navigation:
