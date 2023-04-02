@@ -9,41 +9,26 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
 - jekyll-remote-theme
 
-# Base configuration
-exclude: ["README.md"]
-# markdown: kramdown
-# highlighter: rouge
-# permalink: pretty
-
-# collections:
-#   pages:
-#     output: true
-#     permalink: /:path/
-
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Introduction
-  internal: true
-  url: ./
-- text: About
-  internal: true
-  url: about
-- text: Projects
-  internal: true
-  url: projects
-- text: Contact
-  internal: true
-  url: contsct
+  - text: Introduction
+    internal: true
+    url: ./index.md
+  - text: About
+    internal: true
+    url: about.md
+  - text: Projects
+    internal: true
+    url: projects.md
+  - text: Contact
+    internal: true
+    url: contact.md
 
-# # Repo list
-# # List repos that you would like to appear on the homepage here
-# repos:
-# - name: guides-template
-#   description: 
-#   url: https://github.com/DCgov/guides-template
-
-# google_analytics_ua: 
-
-# # Style Variables
-# brand_color: "#DA253B"
+# GitHub Pages settings
+github:
+  is_project_page: false
+  repository_nwo: petertadrous/data-science-portfolio
+  owner_name: Peter Tadrous
+  owner_url: https://github.com/petertadrous
+  repository_url: https://github.com/petertadrous/data-science-portfolio
