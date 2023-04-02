@@ -27,6 +27,7 @@ navigation:
 # GitHub Pages settings
 github:
   is_project_page: false
+  is_user_page: true
   repository_nwo: petertadrous/data-science-portfolio
   owner_name: Peter Tadrous
   owner_url: https://github.com/petertadrous
