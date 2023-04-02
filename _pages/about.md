@@ -4,8 +4,6 @@ layout: single
 permalink: /about/
 ---
 
-# About Me
-
 My name is Peter Tadrous, and I am a data scientist with a solid background in computer science and data science. I am passionate about harnessing the power of data to uncover hidden patterns and drive informed decision-making.
 
 ## Education

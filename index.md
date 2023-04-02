@@ -3,7 +3,7 @@ title: Home
 layout: home
 ---
 
-# Welcome to My Data Science Portfolio
+## Welcome to My Data Science Portfolio
 
 Hi! My name is Peter Tadrous, and I'm a data scientist with a passion for turning raw data into valuable insights. This portfolio showcases my skills and projects in data science, machine learning, and statistics.
 

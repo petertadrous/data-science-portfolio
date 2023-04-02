@@ -5,8 +5,6 @@ permalink: /projects/
 toc: true
 ---
 
-# Data Science Projects
-
 Below is a selection of projects I've worked on that showcase my skills and experience in data science:
 
 ## [NLP Analysis of Medical Questions](https://github.com/petertadrous/medical-questions-processing)
