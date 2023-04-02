@@ -15,7 +15,7 @@ Find out more about me on the [About](about.md) page.
 
 ## Projects
 
-Here's a glimpse of some of the projects I've worked on. For a detailed overview, please visit my [Projects](projects.md) page.\
+Here's a glimpse of some of the projects I've worked on. For a detailed overview, please visit my [Projects](projects.md) page.
 
 ## Contact
 
