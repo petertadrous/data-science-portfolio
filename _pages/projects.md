@@ -2,6 +2,7 @@
 title: Projects
 layout: single
 permalink: /projects/
+toc: true
 ---
 
 # Data Science Projects
