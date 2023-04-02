@@ -3,7 +3,6 @@ logo: /assets/img/peter-tadrous-profile.jpg
 author:
   name: Peter Tadrous
   email: peter.tadrous@gmail.com
-description: "Data Science Project Portfolio."
 
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
