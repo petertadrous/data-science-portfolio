@@ -24,6 +24,12 @@ defaults:
       share: false
       related: false
 
+# Reading Files
+include:
+  - _pages
+exclude:
+  - README
+
 sidebar:
   nav: "main"
 # # Navigation
@@ -63,7 +69,7 @@ title_separator          : "|"
 name                     : "Peter Tadrous"
 description              : "Data Science Portfolio."
 url                      : https://petertadrous.com
-repository               : petertadrous/data-science-portfolio"
+repository               : petertadrous/data-science-portfolio
 # teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -103,11 +109,7 @@ footer:
       url: "https://www.linkedin.com/in/peter-t/"
 
 
-# Reading Files
-include:
-  - _pages
-exclude:
-  - README
+
 
 
 timezone: America/New_York
