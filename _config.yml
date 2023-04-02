@@ -52,6 +52,14 @@ main:
   - title: "Contact"
     url: /contact/
 
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 
 # # Navigation
 # # List links that should appear in the site sidebar here
