@@ -1,0 +1,36 @@
+- name: Anomaly Detection
+  percentage: 80
+  color: secondary
+- name: Classification
+  percentage: 90
+  color: success
+- name: Clustering
+  percentage: 85
+  color: danger
+- name: Decision Trees and Random Forest
+  percentage: 90
+  color: warning
+- name: Deep Learning and Convolutional Neural Networks
+  percentage: 85
+  color: info
+- name: Locality Sensitive Hashing
+  percentage: 75
+  color: light
+- name: Naïve Bayes
+  percentage: 80
+  color: secondary
+- name: Natural Language Processing
+  percentage: 90
+  color: success
+- name: NLTK
+  percentage: 85
+  color: danger
+- name: PySpark
+  percentage: 80
+  color: warning
+- name: Scikit-Learn
+  percentage: 95
+  color: info
+- name: TensorFlow
+  percentage: 90
+  color: light

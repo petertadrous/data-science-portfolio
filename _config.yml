@@ -1,124 +1,104 @@
-# Theme / Plugins
-remote_theme: mmistakes/minimal-mistakes
+### Site Settings ###
+title               : Peter Tadrous
+description         : >-
+                      I turn coffee :coffee: into code,
+                      use spaces over tabs
+                      and never broke production.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : petertadrous/data-science-portfolio
+remote_theme        : YoussefRaafatNasry/portfolYOU
+open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+
+
+### Plugins ###
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jemoji
-  - jekyll-include-cache
 
-
-# Set the default layout for your pages
-defaults:
-  # _pages
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "single"
-      toc: false
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-
-# Reading Files
-include:
-  - _pages
 exclude:
-  - README
+  - tmp
 
-sidebar:
-  nav: "main"
-# # Navigation
-# # List links that should appear in the site sidebar here
-# navigation:
-#   - text: Introduction
-#     internal: true
-#     url: ./index
-#   - text: About
-#     internal: true
-#     url: about
-#   - text: Projects
-#     internal: true
-#     url: projects
-#   - text: Contact
-#     internal: true
-#     url: contact
-
-# # GitHub Pages settings
-# github:
-#   is_project_page: false
-#   is_user_page: true
-#   repository_nwo: petertadrous/data-science-portfolio
-#   owner_name: Peter Tadrous
-#   owner_url: https://github.com/petertadrous
-#   repository_url: https://github.com/petertadrous/data-science-portfolio
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
 
 
-
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en-US"
-title                    : "Peter Tadrous"
-title_separator          : "|"
-# subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Peter Tadrous"
-description              : "Data Science Portfolio."
-url                      : https://petertadrous.com
-repository               : petertadrous/data-science-portfolio
-# teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-# masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
-
-# Author information
+### Author Info ###
 author:
-  name: "Peter Tadrous"
+  name              : Peter Tadrous
+  image             : /assets/img/peter-tadrous-profile.jpg
   avatar: "/assets/img/peter-tadrous-profile.jpg"
   bio: Data Scientist, Machine Learning Engineer
   location: "Queens, NY"
-  email: "peter@petertadrous.com"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/petertadrous"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/peter-t/"
+# behance           : your_username
+# dribbble          : your_username
+  email             : peter.tadrous@gmail.com
+# facebook          : your_username
+  github            : petertadrous
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : peter-t
+# medium           : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
 
 
-# Site Footer
-footer:
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:peter@petertadrous.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/petertadrous"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/peter-t/"
-
-timezone: America/New_York
-
-# mimic GitHub Pages with --safe
-whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
-
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# ### Posts ###
+# permalink: /blog/:title
 
 
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+# ### Disqus ###
+# disqus:
+#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+# ### Analytics ###
+# analytics:
+#   enabled: false                                        # Set true to enable analytics
+#   google:
+#     tracking_id: your-google-tracking-id
+
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: false
+  username: petertadrous
+  color: "#007bff"
+  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  description: "Support me on Buy me a coffee!"
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
