@@ -13,16 +13,16 @@ plugins:
 navigation:
   - text: Introduction
     internal: true
-    url: ./index.md
+    url: ./index
   - text: About
     internal: true
-    url: about.md
+    url: about
   - text: Projects
     internal: true
-    url: projects.md
+    url: projects
   - text: Contact
     internal: true
-    url: contact.md
+    url: contact
 
 # GitHub Pages settings
 github:
