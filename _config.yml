@@ -4,31 +4,82 @@ author:
   name: Peter Tadrous
   email: peter.tadrous@gmail.com
 
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
+remote_theme: mmistakes/minimal-mistakes
 
-# Navigation
-# List links that should appear in the site sidebar here
-navigation:
-  - text: Introduction
-    internal: true
-    url: ./index
-  - text: About
-    internal: true
-    url: about
-  - text: Projects
-    internal: true
-    url: projects
-  - text: Contact
-    internal: true
-    url: contact
+# Enable or disable the site search
+search: true
 
-# GitHub Pages settings
-github:
-  is_project_page: false
-  is_user_page: true
-  repository_nwo: petertadrous/data-science-portfolio
-  owner_name: Peter Tadrous
-  owner_url: https://github.com/petertadrous
-  repository_url: https://github.com/petertadrous/data-science-portfolio
+# Enable or disable breadcrumbs
+breadcrumb: true
+
+# Enable or disable the site's sidebar
+sidebar:
+  nav: "docs"
+
+# Author information
+author:
+  name: "Peter Tadrous"
+  avatar: "/assets/img/peter-tadrous-profile.jpg"
+  bio: "Data Scientist | Machine Learning Engineer"
+  location: "Auburndale, NY"
+  email: "peter@petertadrous.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/petertadrous"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/peter-t/"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/your-twitter-handle"
+
+# Set the default layout for your pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+
+main:
+  - title: "Introduction"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+
+# # Navigation
+# # List links that should appear in the site sidebar here
+# navigation:
+#   - text: Introduction
+#     internal: true
+#     url: ./index
+#   - text: About
+#     internal: true
+#     url: about
+#   - text: Projects
+#     internal: true
+#     url: projects
+#   - text: Contact
+#     internal: true
+#     url: contact
+
+# # GitHub Pages settings
+# github:
+#   is_project_page: false
+#   is_user_page: true
+#   repository_nwo: petertadrous/data-science-portfolio
+#   owner_name: Peter Tadrous
+#   owner_url: https://github.com/petertadrous
+#   repository_url: https://github.com/petertadrous/data-science-portfolio
