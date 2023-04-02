@@ -79,7 +79,7 @@ repository               : petertadrous/data-science-portfolio
 author:
   name: "Peter Tadrous"
   avatar: "/assets/img/peter-tadrous-profile.jpg"
-  bio: "Data Scientist | Machine Learning Engineer"
+  bio: Data Scientist, Machine Learning Engineer
   location: "Queens, NY"
   email: "peter@petertadrous.com"
   links:
