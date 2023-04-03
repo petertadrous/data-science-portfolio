@@ -1,15 +1,16 @@
-/* Responsive site title */
+//* Responsive site title */
 .site-title {
-    font-size: 1.1vw;
-    transition: font-size 0.35s;
+  font-size: 1rem !important;
+  transition: font-size 0.35s;
+}
+
+@media (max-width: 926px) {
+  .site-title {
+    font-size: 0.8rem !important;
   }
-  
-  @media (max-width: 926px) {
-    .site-title {
-      font-size: 3vw;
-    }
-  }
-  
+}
+
+
 .link-after {
     content: "";
     display: block;
