@@ -8,7 +8,7 @@ weight: 2
 # **About Me**
 
 <div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
+{% include about/skills.html title="Programming" source=site.data.programming-skills %}
 {% include about/skills.html title="Technologies" source=site.data.technologies-skills %}
 {% include about/skills.html title="Statistics & ML" source=site.data.statistics-ml-skills %}
 </div>
