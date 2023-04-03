@@ -1,21 +1,17 @@
 ### Site Settings ###
 title               : Peter Tadrous
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use spaces over tabs
-                      and never broke production.
-baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+                      Data Scientist, Machine Learning Engineer
+baseurl             : ""
 repository          : petertadrous/data-science-portfolio
 remote_theme        : YoussefRaafatNasry/portfolYOU
-open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
+open_new_tab        : false
 
 
 ### Plugins ###
 plugins:
   - jemoji
 
-exclude:
-  - tmp/
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
@@ -26,33 +22,17 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Peter Tadrous
-  image             : /assets/img/peter-tadrous-profile.jpg
-  avatar            : "/assets/img/peter-tadrous-profile.jpg"
+  image             : https://avatars.githubusercontent.com/u/70548761
   bio               : Data Scientist, Machine Learning Engineer
-  location          : "Queens, NY"
-# behance           : your_username
-# dribbble          : your_username
+  location          : Queens, NY
   email             : peter.tadrous@gmail.com
-# facebook          : your_username
   github            : petertadrous
-# gitlab            : your_username
-# instagram         : your_username
 # kaggle            : your_username
   linkedin          : peter-t
-# medium           : your_username
-# soundcloud        : your_username
-# spotify           : your_username
+# medium            : your_username
 # stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
 # twitter           : your_username
-# vimeo             : your_username
 # youtube           : your_channel_name
-# keybase           : your_username
-
-
-# ### Posts ###
-# permalink: /blog/:title
 
 
 ### Collections ###
@@ -60,11 +40,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-
-
-# ### Disqus ###
-# disqus:
-#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 # ### Analytics ###
@@ -101,3 +76,12 @@ defaults:
 ### Exclude from processing ###
 exclude:
   - README.md
+
+### GitHub Pages settings ###
+github:
+  is_project_page: false
+  is_user_page: true
+  repository_nwo: petertadrous/data-science-portfolio
+  owner_name: Peter Tadrous
+  owner_url: https://github.com/petertadrous
+  repository_url: https://github.com/petertadrous/data-science-portfolio
