@@ -9,13 +9,13 @@ Hi! My name is Peter Tadrous, and I'm a data scientist with a passion for turnin
 
 ## About Me
 
-I have a background in computer science, and statistics and have been working as a data scientist for the past 2 years. My expertise includes natural language processing, machine learning and statistical analysis, and anomaly detection.
+I have a background in computer science and statistics, and have been working as a data scientist for the past 2 years. My expertise includes natural language processing, machine learning, statistical analysis, and anomaly detection.
 
 Find out more about me on the [About](about.md) page.
 
 ## Projects
 
-Here's a glimpse of some of the projects I've worked on. For a detailed overview, please visit my [Projects](projects.md) page.
+Here's a glimpse of some of my projects. For a detailed overview, please visit my [Projects](projects.md) page.
 
 1. [**NLP Analysis of Medical Questions**](https://github.com/petertadrous/medical-questions-processing): An NLP Analysis of 23,000+ patient medical questions from 12 NIH websites.
 2. [**Bayesian Dropout Layer in FairFace Network**](https://github.com/petertadrous/cus754-capstone): Improving Facial Recognition Performance of Race, Age, and Gender Classification Using Bayesian Dropout on FairFace Model.
