@@ -1,0 +1,48 @@
+.link-after {
+    content: "";
+    display: block;
+    height: 0.15em;
+    background: $primary;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    &::after {
+      @extend .link-after;
+      width: 0;
+      transition: width 0.35s;
+    }
+  
+    &:hover::after {
+      width: 100%;
+    }
+  }
+  
+  .nav-item.active {
+    font-weight: bold;
+  
+    &::after {
+      @extend .link-after;
+      width: 100% !important;
+    }
+  }
+  
+  .navbar-brand {
+    margin-bottom: -14px;
+    &::after {
+      margin-top: -0.25em;
+    }
+  }
+  
+
+/* Responsive site title */
+.site-title {
+  font-size: 1.25rem;
+}
+
+/* Adjust font size for smaller screens */
+@media (max-width: 575.98px) {
+  .site-title {
+    font-size: 1rem;
+  }
+}
