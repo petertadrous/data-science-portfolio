@@ -2,6 +2,7 @@
 title: Contact
 layout: default
 permalink: /contact/
+order: 4
 ---
 
 I'm always happy to connect, collaborate, or discuss new opportunities. Feel free to reach out to me through any of the following channels:

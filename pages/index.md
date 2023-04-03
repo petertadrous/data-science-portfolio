@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /
+order: 1
 ---
 
 {% include landing.html %}
