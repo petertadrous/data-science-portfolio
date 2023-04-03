@@ -15,7 +15,7 @@ plugins:
   - jemoji
 
 exclude:
-  - tmp
+  - tmp/
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar

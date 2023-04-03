@@ -1,6 +1,6 @@
 ---
 title: Contact
-layout: single
+layout: default
 permalink: /contact/
 ---
 
@@ -19,5 +19,3 @@ I'm always happy to connect, collaborate, or discuss new opportunities. Feel fre
 [github.com/petertadrous](https://github.com/petertadrous)
 
 Please allow me some time to respond to your message, as I may be busy with work or other commitments. I look forward to hearing from you!
-
-[Return to Home](../index.md)

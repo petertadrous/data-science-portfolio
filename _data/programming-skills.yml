@@ -1,18 +1,18 @@
 - name: Python
-  percentage: 95
+  percentage: 85
   color: secondary
 - name: SQL
-  percentage: 90
+  percentage: 85
   color: success
 - name: Docker
-  percentage: 85
+  percentage: 65
   color: danger
 - name: Bash
-  percentage: 80
+  percentage: 60
   color: warning
 - name: R
-  percentage: 75
+  percentage: 60
   color: info
 - name: Java
-  percentage: 70
+  percentage: 30
   color: light

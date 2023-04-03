@@ -3,7 +3,6 @@ name: NLP Analysis of Medical Questions
 tools: [NLTK, Scikit-Learn, PCA, t-SNE, K-Means, DBSCAN, LDA, Python]
 image: https://media.istockphoto.com/id/1026909904/photo/pills-or-capsules-as-a-question-mark-and-white-plastic-bottle.jpg?s=612x612&w=0&k=20&c=Domtik9jVlKqkb85fwwYtkDxE3MBIvlrRUIjkOw6rZY=
 description: Analysis of 23,000+ patient questions from 12 NIH sites with NLTK and Scikit-Learn.
-external_url: https://github.com/petertadrous/medical-questions-processing
 ---
 
 # NLP Analysis of Medical Questions
