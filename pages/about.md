@@ -20,3 +20,7 @@ weight: 3
 <div class="row">
 {% include about/employment-timeline.html %}
 </div>
+
+# Interests
+
+In my free time, I enjoy exploring the outdoors, traveling, and reading. My passion for technology extends beyond my professional life, as I'm always eager to discover new tech and find innovative ways to apply my skills. I also love playing the ukulele and sharing fun moments with my adorable cat.
