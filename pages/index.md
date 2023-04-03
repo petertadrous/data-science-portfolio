@@ -1,7 +1,8 @@
 ---
+title: Home
 layout: default
 permalink: /
-order: 1
+weight: 1
 ---
 
 {% include landing.html %}

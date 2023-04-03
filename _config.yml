@@ -21,16 +21,15 @@ exclude:
 nav_exclude:                                            # The following paths are excluded from navbar
   - pages/tags.html
   - pages/404.html
-  - pages/index.md
 
 
 ### Author Info ###
 author:
   name              : Peter Tadrous
   image             : /assets/img/peter-tadrous-profile.jpg
-  avatar: "/assets/img/peter-tadrous-profile.jpg"
-  bio: Data Scientist, Machine Learning Engineer
-  location: "Queens, NY"
+  avatar            : "/assets/img/peter-tadrous-profile.jpg"
+  bio               : Data Scientist, Machine Learning Engineer
+  location          : "Queens, NY"
 # behance           : your_username
 # dribbble          : your_username
   email             : peter.tadrous@gmail.com
