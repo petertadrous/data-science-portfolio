@@ -1,11 +1,11 @@
 /* Responsive site title */
-.site-title {
+h5.site-title {
     font-size: 1.1vw !important;
     transition: font-size 0.35s;
   }
   
-  @media (max-width: 926px) {
-    .site-title {
+  @media (max-width: 960px) {
+    h5.site-title {
       font-size: 3vw !important;
     }
   }
