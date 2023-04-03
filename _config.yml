@@ -59,6 +59,11 @@ buymeacoffee:
   description: "Support me on Buy me a coffee!"
 
 
+### Custom Style ###
+sass:
+  sass_dir: assets/css
+  style: compressed
+
 ### Defaults for collections ###
 defaults:
   - scope:
@@ -66,11 +71,13 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+      css: "style"
   - scope:
       path: ""
       type: "posts"
     values:
       comments: false
+      css: "style"
 
 
 ### Exclude from processing ###

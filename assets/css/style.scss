@@ -1,25 +1,11 @@
-
 ---
 ---
 
-//* Responsive site title */
+@import portfolYOU;
 
-@media screen and (max-width: 960px) {
-    .navbar-brand {
-      font-size: 18px;
+// Add this to your existing SCSS file where the nav styles are defined
+@media (max-width: 480px) {
+    .navbar-brand h5 {
+      font-size: 14px; // Adjust this value based on the desired font size for mobile screens
     }
   }
-  
-  @media screen and (max-width: 767px) {
-    .navbar-brand {
-      font-size: 18px;
-    }
-  }
-  
-  @media screen and (max-width: 479px) {
-    .navbar-brand {
-      font-size: 14px;
-    }
-  }
-  
-  @import "portfolYOU";
