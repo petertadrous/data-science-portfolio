@@ -1,0 +1,16 @@
+
+---
+---
+//* Responsive site title */
+.site-title {
+    font-size: 1rem !important;
+    transition: font-size 0.35s;
+  }
+  
+  @media (max-width: 960px) {
+    .site-title {
+      font-size: 0.8rem !important;
+    }
+  }
+  
+  @import "portfolYOU";
