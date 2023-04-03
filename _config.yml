@@ -1,8 +1,6 @@
 ### Site Settings ###
-title               : Peter Tadrous
-description         : >-
-                      Data Scientist | Machine Learning Engineer<br>
-                      Harnessing the power of data to uncover hidden patterns and drive informed decision-making.
+title               : Peter Tadrous | Data Science Portfolio
+description         : Harnessing the power of data to uncover hidden patterns and drive informed decision-making.
 baseurl             : ""
 repository          : petertadrous/data-science-portfolio
 remote_theme        : YoussefRaafatNasry/portfolYOU
