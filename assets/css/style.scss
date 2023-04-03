@@ -1,15 +1,24 @@
 
 ---
 ---
+
 //* Responsive site title */
-.site-title {
-    font-size: 1rem !important;
-    transition: font-size 0.35s;
+
+@media screen and (max-width: 960px) {
+    .navbar-brand {
+      font-size: 18px;
+    }
   }
   
-  @media (max-width: 960px) {
-    .site-title {
-      font-size: 0.8rem !important;
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (max-width: 479px) {
+    .navbar-brand {
+      font-size: 14px;
     }
   }
   
