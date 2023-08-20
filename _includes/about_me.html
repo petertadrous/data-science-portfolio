@@ -1,0 +1,9 @@
+<h2 class="wow animated slideInUp" data-wow-delay=".15s">About Me</h2>
+<ul>
+    <!-- Assuming site.about is a list of bullet points -->
+    {% for bullet in site.data.about-me %}
+        <li class="text wow animated slideInUp" data-wow-delay=".15s">{{ bullet }}</li>
+    {% endfor %}
+</ul>
+<p class="wow animated slideInUp" data-wow-delay=".2s">Find out more about me on the <a href="/about/">About</a>
+    page.</p>

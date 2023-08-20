@@ -13,18 +13,9 @@
 - name: Linux
   percentage: 90
   color: info
-- name: Jupyter
-  percentage: 95
-  color: light
 - name: PowerBI
   percentage: 80
   color: secondary
-- name: PuTTY
-  percentage: 70
-  color: success
-- name: SPSS
-  percentage: 75
-  color: danger
 - name: VS Code
   percentage: 95
   color: warning

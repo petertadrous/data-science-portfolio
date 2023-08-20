@@ -1,0 +1,17 @@
+<div class="container-fluid py-2">
+<h2 class="wow animated slideInUp" data-wow-delay=".15s">
+    Latest Projects 
+        {% include elements/button.html link="/projects" text="Click Here To See All Projects" size="sm" %}
+</h2>
+
+<div class="d-flex flex-row flex-nowrap overflow-auto">
+    {% assign projects = site.projects | reverse %}
+    {% for project in projects limit:4 %}
+    <div class="col-lg-4 col-md-6 text-center mt-4 wow animated slideInUp" data-wow-delay=".15s">
+        {% include latest_project.html %}
+    </div>
+    {% endfor %}
+</div>
+</div>
+
+

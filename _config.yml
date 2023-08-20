@@ -1,5 +1,5 @@
 ### Site Settings ###
-title               : Peter Tadrous | Data Science Portfolio
+title               : Peter Tadrous
 description         : Harnessing the power of data to uncover hidden patterns and drive informed decision-making.
 baseurl             : ""
 repository          : petertadrous/data-science-portfolio
@@ -16,7 +16,7 @@ plugins:
 nav_exclude:
   - pages/tags.html
   - pages/404.html
-  - pages/index.md
+  # - pages/index.md
 
 
 ### Author Info ###

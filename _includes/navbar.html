@@ -39,10 +39,13 @@
   
         {% for html_page in filtered_pages %}  
   
+          {%- assign active_status = "" -%}
           {%- if page.url contains html_page.url -%}
-            {%- assign active_status = "active" -%}
-          {%- else -%}
-            {%- assign active_status = "" -%}
+            {%- if page.url != "/" and html_page.url == "/" -%}
+              {%- assign active_status = "" -%}
+            {%- else -%}
+              {%- assign active_status = "active" -%}
+            {%- endif -%}
           {%- endif -%}
   
           {%- if html_page.external_url -%}
@@ -54,7 +57,7 @@
           <a class="nav-item nav-link {{ active_status }}" href="{{ url }}" {%- if html_page.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>{{ html_page.title }}</a>
   
         {% endfor %}
-        <a class="nav-item nav-link " href="https://github.com/petertadrous">
+        <a class="nav-item nav-link " href="{{ site.github.owner_url }}">
             <i class="fab fa-1x fa-github">
             </i>
         </a>

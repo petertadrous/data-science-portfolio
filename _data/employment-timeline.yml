@@ -1,26 +1,42 @@
-- title: Data Scientist - Machine Learning Engineer II
-  location: "<a href='https://www.circana.com/'>Circana</a> (Formerly <a href='https://www.circana.com/iri-and-npd-rebrand-as-circana-the-leading-advisor-on-the-complexity-of-consumer-behavior.html'>NPD Group</a>), NY"
+- title: Machine Learning Engineer II - Data Scientist 
+  company: "<a href='https://www.circana.com/'>Circana</a> (Formerly <a href='https://www.circana.com/iri-and-npd-rebrand-as-circana-the-leading-advisor-on-the-complexity-of-consumer-behavior.html'>NPD Group</a>)"
+  location: New York, NY
   from: 11/2021
   to: present
-  description: >-
-               - Engaged in Agile sprints to identify key improvement areas and develop data-driven solutions<br>
-               - Streamlined anomaly detection processes and created visualization dashboards for time series data feeds<br>
-               - Automated training and logging of machine learning experiments on Azure Databricks
+  description:
+    - Research and develop unsupervised anomaly detection methods to score hierarchical time-series anomalies
+    - Develop univariate and multivariate scoring metrics, ranking algorithms for model selection and model results
+    - Refactor disparate teams’ existing anomaly detection codebases into a single unified framework
+    - Engineer SQL queries and stored procedures, automate ETL processes for data science analyses and reporting
+    - Design and implement a scalable DAG pipeline using object-oriented best practices and SOLID design principles
+    - Reduce model runtime by 94% by implementing multiprocessing, dynamic imports, and lazy execution
+    - Reduce noise in text features by 12% by engineering a battery of semi-supervised and unsupervised methods
+    - Research and deploy Word Segmentation, Word Sense Disambiguation, and OCR error correction techniques
+    - Automate training and logging of mlflow experiments of custom meta-classifiers on Azure Databricks
+    - Develop custom transformers and estimators in Python, leveraging inheritance from Scikit-Learn base classes
+    - Spearhead documentation effort by developing internal standards for code development and documentation
+    - Author and maintain Data Science team’s Wiki pages for project descriptions and research logging
+
+
 
 - title: Process Control & Operations Analyst
-  location: "<a href='https://www.npd.com/'>NPD Group</a>, NY"
+  company: NPD Group
+  company_link: https://www.npd.com/
+  location: Port Washington, NY
   from: 08/2019
   to: 11/2021
-  description: >-
-               - Implemented automated solutions to address key pain points in collaboration with multiple process leads<br>
-               - Improved data validation efficiency using Python and Selenium, resulting in new client contracts<br>
-               - Developed a Python script to significantly reduce the time spent on open-end survey responses translation
+  description:
+    - Implemented automated solutions to address key pain points in collaboration with multiple process leads
+    - Automated data validation using Python and Selenium, resulting in new client contracts
+    - Developed a Python script to to reduce monthly manual hours spent on open-end survey responses translation by 75%
 
 - title: Summer Associate
-  location: "<a href='https://www.npd.com/'>NPD Group</a>, NY"
+  company: NPD Group
+  company_link: https://www.npd.com/
+  location: Port Washington, NY
   from: 06/2019
   to: 08/2019
-  description: >-
-               - Enhanced data consistency by normalizing a large number of brand and retailer entries using Python<br>
-               - Automated monthly data quality checks for flat file reports<br>
-               - Presented project results and actionable next steps to senior leadership and executives
+  description:
+    - Enhanced data consistency by normalizing large corpora of brand names and retailer names using Python
+    - Scripted monthly data quality and schema integrity checks for staging server of flat file reports
+    - Presented project results and actionable next steps to senior leadership and executives
