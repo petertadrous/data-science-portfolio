@@ -7,7 +7,7 @@
 <div class="d-flex flex-row flex-nowrap overflow-auto">
     {% assign projects = site.projects | reverse %}
     {% for project in projects limit:4 %}
-    <div class="col-lg-4 col-md-6 text-center mt-4 wow animated slideInUp" data-wow-delay=".15s">
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 text-center mt-4 wow animated slideInUp" data-wow-delay=".15s">
         {% include latest_project.html %}
     </div>
     {% endfor %}
