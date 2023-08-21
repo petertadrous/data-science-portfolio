@@ -1,5 +1,5 @@
 ---
-name: Retirement Monte Carlo Simulations
+name: Simulating Various Asset Allocation Strategies
 tools: [Numpy, Matplotlib, Seaborn, SBBI, Python]
 image: /assets/img/HistoricalSimulationsPlot.png
 description: Monte Carlo and Historical simulations of various asset allocation strategies in retirement funds.
