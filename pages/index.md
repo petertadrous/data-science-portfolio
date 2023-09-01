@@ -10,7 +10,7 @@ permalink: /
 {% include latest_projects.html %}
 
 
-<div class="wow animated slideInUp" data-wow-delay=".15s">
+<div class="wow animated slideInUp mt-4" data-wow-delay=".15s">
     {% include contact.html %}
 
 </div>

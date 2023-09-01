@@ -1,0 +1,29 @@
+<html>
+
+<body>
+    <script>
+        let projects =[];
+        {% for project in site.projects %}
+            {%- if project.external_url -%}
+                projects.push("{{project.external_url}}");
+            {%- else -%}
+                projects.push("{{project.url}}");
+            {%- endif -%}
+        {% endfor %}
+        // console.log(js_array);
+
+        // Function to generate a random project URL
+        var randomIndex = Math.floor(Math.random() * projects.length);
+        var randomProject = projects[randomIndex];
+        switch(randomProject[0]){
+            case '/':
+                window.location.href = randomProject;
+                break;
+            default:
+                window.location = randomProject;
+        }
+        
+
+    </script>
+</body>
+</html>

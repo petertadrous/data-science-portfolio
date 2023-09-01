@@ -1,7 +1,21 @@
 ---
 ---
 
-@import "portfolYOU";
+.scrollbox {
+    box-shadow: 5px 5px 15px rgb(0, 0, .01); /* Set the shadow on the right side */
+    /* Add any other styling you want for the container */
+    padding: 10px;
+    // margin: 20px;
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.scrollbox .d-flex {
+    /* Ensure flex container takes full width */
+    width: 100%;
+}
+
+
 
 // Add this to your existing SCSS file where the nav styles are defined
 @media (max-width: 480px) {
@@ -9,3 +23,7 @@
       font-size: 14px; // Adjust this value based on the desired font size for mobile screens
     }
   }
+
+
+@import "portfolYOU";
+
