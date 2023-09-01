@@ -9,7 +9,7 @@
     <div class="d-flex flex-row flex-nowrap overflow-auto">
         {% assign projects = site.projects | reverse %}
         {% for project in projects limit:4 %}
-        <div class="col-lg-4 col-md-5 col-sm-8 col-xs-9 wow animated slideInUp" data-wow-delay=".15s">
+        <div class="col-lg-4 col-md-5 col-sm-8 col-9 wow animated slideInUp" data-wow-delay=".15s">
             {% include project_card.html %}
         </div>
         {% endfor %}
