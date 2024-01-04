@@ -1,7 +1,7 @@
 ---
 name: Bayesian Dropout Layer in FairFace Network
 tools: [ResNet34, PyTorch, Keras, Transfer Learning, Python]
-image: https://media.arxiv-vanity.com/render-output/7234740/figures/fairface_tsne.png
+image: /assets/img/BayesianDropout_fairface_tsne.png
 description: Analyzed the addition of a Bayesian Dropout Layer to a pre-trained ResNet34 model for face recognition (FairFace).
 ---
 
