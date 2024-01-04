@@ -21,13 +21,13 @@ Monte Carlo and Historical simulations of various asset allocation strategies in
 
 | Time Series Plot (Historical Simulations) |
 |:-:|
-| ![Historical Simulation](./examples/HistoricalSimulationsPlot.png) |
+| ![Historical Simulation](/assets/img/HistoricalSimulationsPlot.png) |
 
 | Histogram of Ending Balance (Monte Carlo Simulations) |
 |:-:|
-| ![Historical Simulation](./examples/MonteCarloSimulationsHist.png) |
+| ![Historical Simulation](/assets/img/MonteCarloSimulationsHist.png) |
 
-Explore more examples within the `./examples/` directory.
+More details and examples can be found on my github, below.
 
 
 ---
