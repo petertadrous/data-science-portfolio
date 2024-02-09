@@ -33,5 +33,5 @@ More details and examples can be found on my github, below.
 ---
 
 <p class="text-center">
-{% include elements/button.html link="htthttps://github.com/petertadrous/monte-carlo-simulations" text="Learn More" %}
+{% include elements/button.html link="https://github.com/petertadrous/monte-carlo-simulations" text="Learn More" %}
 </p>
